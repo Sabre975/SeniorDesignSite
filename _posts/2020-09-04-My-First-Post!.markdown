@@ -1,29 +1,13 @@
----
-layout: post
-title:  "Week 1: My First Post!"
-date:   2020-09-04 09:10:00 -0700
-categories: jekyll update
----
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Hello Everyone and welcome to my Senior Design Website! This is where I will be making weekly posts, technical in nature, about what cool things I have gotten done in that time frame. Before I proceed with this week's post, I want to first introduce myself. My name is Kyle Allen, I am a Senior CIT Major at CSUN, and I am quite active in the Layer 8 Security Club, as the treasurer. My passion is Cyber Security, and I have been pursuing a career in the field. Outside of school, I compete in the Collegiate Cyber Defense Competition with some other Layer 8 students in order to improve my Cyber Security skills. The competition is a simulation where you defend a network from a real team of hackers, all while maintaining services and finishing business tasks. These next two semesters will be my busiest, but I will do my best to maintain this blog. With that, let's get to my first blog post!
 
-Jekyll requires blog post files to be named according to the following format:
+This week was very interesting and eventful for me. With the second week of school starting, I had a lot of CIT projects to work on. Most of the time I had been setting this up with Jekyll and GitHub Pages. I had a lot of trouble, because it would look okay when I host it locally on a http server, however, when uploaded to GitHub pages, it would have no CSS. This puzzled me, and it took me a while to realize the "baseurl:" field needed to be set in the "_config.yml". After this I had no issues.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Aside from this site, I similarly worked on my CIT 384 (Web Dev) assignments, which has been basic HTML up until now. To me, it has been difficult to gain interest in the class, as I am not that into web development, yet I understand that it is a good skill to have. I also have been collaborating with my CIT 496 (Advance Practicum in CIT) team. It is a project based class where CIT and CS students collaborate, and our proposed project is to develop a QR code based attendance system. This week we set our idea in stone and broke up roles, mine currently is to help develop the database schema. On top of this, I have been putting off my CIT 425 (Security) homework for about a week now, and I am considerig starting it soon. It is simple to me though, all that has to be done is to set up two virtual machines and make sure they can ping each other. I have done this before, so I am not too worried.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Outside of school, I have been working with some CCDC people to discover a good open source IPS to implement in the event that we are given a firewall without one built in (such as open source solutioins such as pfsense). I have become fond of Suricata, as I have set it up before on both Windows and Linux. The plan would be to place that between the network entry point and the rest of the network, and route all traffic through that, so that it can inspect all packets for potentially malicious traffic. I will be continuing to research this, along with other defensive tactics in the coming weeks. 
 
-Jekyll also offers powerful support for code snippets:
+Finally, this week was the final week of my Cyber Security internship that I have been doing since early July. I very much enjoyed my time and picked up a lot of things from it. Some skills I developed most was sharpening my Powershell proficiency, improving my Windows administration skills (especially deploying things using Group Policy Objects), sharpening my network security skills (especially with operating on Fortinet firewalls and cisco switches), and soft skills like implementing security into business. I even found certain vulnerabilities in the companies systems that they were not aware of, and advised them on how to mitigate them, which very much impressed them in my final presentation to the company leaders. They seemed very pleased and requested that I contact them close to my graduation to talk about getting a full time position, which very much excites me.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+That is it for this blog post, check back next week for another one!
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+--Kyle Allen
